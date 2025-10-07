@@ -18,7 +18,7 @@ Este proyecto es un ejercicio práctico del Certificado Profesional N3 en Desarr
 - JavaScript (interacción y validación)
 - PHP con PDO (lógica del servidor y conexión segura)
 - MySQL (base de datos)
-- DataTables (tabla dinámica con paginación y búsqueda)
+- DataTables (tabla dinámica con paginación y búsqueda)(el responsive da problemas en la version 2.0)
 
 ## Demo
 [Accede a la demo](http://dnavar443:rl9RqMdt@www.dnavarro.com.mialias.net/clasesCRUD/)
