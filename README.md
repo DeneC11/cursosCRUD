@@ -20,7 +20,7 @@ Este proyecto es un ejercicio práctico del Certificado Profesional N3 en Desarr
 - DataTables (para la tabla interactiva)
 
 ## Demo
-[Accede a la demo]([http://dnavar443:rl9RqMdt@www.dnavarro.com.mialias.net/ejercicio2/index.php](http://dnavar443:rl9RqMdt@www.dnavarro.com.mialias.net/clasesCRUD/))
+[Accede a la demo](http://dnavar443:rl9RqMdt@www.dnavarro.com.mialias.net/clasesCRUD/)
 
 ## Autor
 Proyecto desarrollado por DeneC11 como parte del curso de Desarrollo Web.
