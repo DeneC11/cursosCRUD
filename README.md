@@ -5,19 +5,20 @@ Este proyecto es un ejercicio práctico del Certificado Profesional N3 en Desarr
 ## Características
 
 - Crear nuevos cursos con título, descripción, duración, nivel y fechas
-- Visualizar todos los cursos en una tabla dinámica
+- Visualizar todos los cursos en una tabla interactiva
 - Editar los datos de cualquier curso
 - Eliminar cursos existentes
-- Filtro de búsqueda y paginación
+- Buscar y filtrar por campos
+- Botón para regenerar la tabla con los datos originales
 
 ## Tecnologías utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (interacción y validación)
-- PHP (lógica del servidor)
+- PHP con PDO (lógica del servidor y conexión segura)
 - MySQL (base de datos)
-- DataTables (para la tabla interactiva)
+- DataTables (tabla dinámica con paginación y búsqueda)
 
 ## Demo
 [Accede a la demo](http://dnavar443:rl9RqMdt@www.dnavarro.com.mialias.net/clasesCRUD/)
