@@ -20,6 +20,9 @@ $cursos = $stmt->fetchAll();
     <!-- datatable css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/2.3.4/css/dataTables.bootstrap5.css">
+    <!-- responsive datatable -->
+     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+     <meta name="viewport" content="width=device-width" />
 </head>
 
 <body class=" bg-dark text-white">
@@ -30,6 +33,7 @@ $cursos = $stmt->fetchAll();
                 Crear nuevo curso
             </a>
         </div>
+        <div class="table-responsive">
         <table id="cursosTable" class="table table-striped table-hover border display nowrap">
             <thead>
                 <!-- id	titulo	descripcion	duracionHoras	nivel	fechaInicio	fechaFin	publicado	createdAt	updatedAt	 -->
@@ -86,6 +90,7 @@ $cursos = $stmt->fetchAll();
                 </tr> -->
             </tbody>
         </table>
+        </div>
         <form action="regenerar.php" method="post" onsubmit="return confirm('¿Estás seguro de que quieres regenerar la tabla? Se perderán los cambios.')">
             <button type="submit" class="btn btn-warning">🔄 Regenerar tabla</button>
         </form>
@@ -98,6 +103,7 @@ $cursos = $stmt->fetchAll();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/2.3.4/js/dataTables.js"></script>
     <script src="https://cdn.datatables.net/2.3.4/js/dataTables.bootstrap5.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
     <script>
         // import DataTable from 'datatables.net';
         // import language from 'datatables.net-plugins/i18n/es-ES.mjs';
@@ -105,6 +111,7 @@ $cursos = $stmt->fetchAll();
             language: {
                 url: './es-ES.json',
             },
+            responsive: true
         });
     </script>
 </body>
